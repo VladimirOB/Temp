@@ -6,8 +6,6 @@ use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     return view('welcome');
-<<<<<<< HEAD
-=======
 });
 
 Route::get('/Me', function () {
@@ -16,5 +14,4 @@ Route::get('/Me', function () {
 
 Route::get('/test', function () {
     return response()->json("test");
->>>>>>> Jack
 });
