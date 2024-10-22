@@ -11,3 +11,7 @@ Route::get('/', function () {
 Route::get('/vova', function () {
     return response()->json("vova");
 });
+
+Route::get('/test', function () {
+    return response()->json("test");
+});
