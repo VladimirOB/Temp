@@ -13,5 +13,5 @@ Route::get('/vova', function () {
 });
 
 Route::get('/test', function () {
-    return response()->json("test");
+    return response()->json("test2");
 });
