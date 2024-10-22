@@ -8,7 +8,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    $res = DB::table('tbl')->get();
-    return response()->json($res);
+Route::get('/vova', function () {
+    return response()->json("vova");
 });
