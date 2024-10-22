@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/Me', function () {
     return view('welcome');
 });
+
+Route::get('/test', function () {
+    return response()->json("test");
+});
